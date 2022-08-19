@@ -1,0 +1,123 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.myImage {
+  width: 200px !important;
+  height: 300px !important;
+  padding: 0px !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.container-fluid{
+  display: block;
+  justify-content: center !important;
+  margin: 10px;
+}
+
+.backbutton{
+  background-color: #198754 !important;
+  border-color:#198754 !important;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 55px;
+  height: 55px;
+  font-size: 3.8rem;
+  border-radius: 50% !important;
+  padding-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1000;
+}
+
+.fa-solid{
+  color: white !important;
+}
+
+.myReadtitle{
+  font-family: "Oswald";
+  font-size: 300%;
+}
+
+.noBooksFou{
+  text-align: center;
+  padding-top: 15%;
+  font-family: "Oswald";
+}
+
+#dropdown-basic-button {
+  border-radius: 50%;
+  position: absolute;
+  left: 80%;
+  transform: translate(-25%, -80%);
+  width: 50px;
+  height: 50px;
+}
+
+.ReadsLayout {
+  padding-left: 5px;
+}
+
+li {
+  cursor: pointer;
+}
+
+#myReads {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.divViewBook {
+  width: 200px;
+  height: 280;
+  margin: 30px;
+}
+
+.titleBook {
+  display: block;
+  padding-top: 10px !important;
+}
+
+.authorsBook {
+  color: #999;
+  display: block;
+}
+
+.titleline {
+  margin: 25px;
+  border: 5px;
+  border-bottom: 1px solid #dedede;
+  font-family: "Oswald";
+}
+
+.floating-btn {
+  background-color: #198754 !important;
+  border-color:#198754 !important;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 55px;
+  height: 55px;
+  font-size: 3.8rem;
+  border-radius: 50% !important;
+  padding-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1000;
+}
+
+.searchInput{
+
+  width: 80%;
+  justify-content: center !important;
+}
